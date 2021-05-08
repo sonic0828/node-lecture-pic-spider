@@ -1,0 +1,17 @@
+{
+  "name": "2-reptile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "t1" : "node test1.js",
+    "t2" : "node test2.js",
+    "all": "npm run t1 && npm run t2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "iconv-lite": "^0.4.24"
+  }
+}
